@@ -1,0 +1,41 @@
+{
+  "name": "js-gheditor-with-uploads",
+  "version": "0.0.1",
+  "title": "GHEditorWithUploads",
+  "description": "Editor of markdown, with preview window. Taken from ghost. With upload UI",
+  "keywords": [
+    "markdown",
+    "editor",
+    "ghost",
+    "preview",
+    "widget"
+  ],
+  "homepage": "https://github.com/vencax/js-gheditor-with-uploads",
+  "author": { "name": "Vaclav Klecanda" },
+  "maintainers": [
+    { "name": "Vaclav Klecanda" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vencax/js-gheditor-with-uploads.git"
+  },
+  "bugs": "https://github.com/vencax/js-gheditor-with-uploads/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "js-gheditor": "*"
+  },
+  "main": [
+    "css/gheditor.css",
+    "lib/editor.js",
+    "lib/markdown-actions.js"
+  ],
+  "ignore": [
+    "/*.*",
+    "example.html"
+  ]
+}
