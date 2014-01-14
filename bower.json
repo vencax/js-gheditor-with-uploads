@@ -27,15 +27,18 @@
     }
   ],
   "dependencies": {
-    "js-gheditor": "*"
+    "js-gheditor": "*",
+    "jquery-ui": "*",
+    "blueimp-file-upload": "*"
   },
   "main": [
-    "css/gheditor.css",
     "lib/editor.js",
-    "lib/markdown-actions.js"
+    "lib/marker-manager.js",
+    "lib/upload-manager.js"
   ],
   "ignore": [
     "/*.*",
-    "example.html"
+    "example.html",
+    "sampleuploader.js"
   ]
 }
